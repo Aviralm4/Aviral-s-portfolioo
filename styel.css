@@ -21,7 +21,12 @@
   transform: scale(1.1);
 } 
 body {
-    background-color: rgb(15, 8, 6);
+     background: linear-gradient(135deg,
+        rgb(26,21,21),
+        rgb(88, 35, 0)
+    );
+    min-height: 100vh;
+    margin: 0;
     cursor: none;
 }
 h1 {
@@ -142,16 +147,23 @@ h3 {
     font-size: 20px;
     color: rgb(231, 93, 0);
 }
+.contact1:hover {
+    background-color: rgb(141, 52, 0);
+    color: black;
+    border-color: rgb(255, 150, 80);
+    
+}
 .glass {
-    background: linear-gradient(to right, rgb(41, 13, 0), rgb(153, 49, 1));
+    background: linear-gradient(135deg, rgb(41, 13, 0), rgb(153, 49, 1));
     backdrop-filter: blur(10px);
     border-radius: 15px;
     border: 1px solid rgba(255, 255, 255, 0.2);
     padding: 20px;
     display: inline-block;
+    margin: 20px;
 }
 .glass:hover {
-    background: linear-gradient(to right, rgb(255, 94, 0), rgb(255, 150, 80));
+    background: linear-gradient(135deg, rgb(77, 28, 0), rgb(184, 73, 0));
     color: black;
     border-color: rgb(255, 150, 80);
     transform: scale(1.1);
