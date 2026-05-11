@@ -138,4 +138,21 @@ h3 {
     background-color: rgb(26, 21, 21);
     border: 2px solid rgb(255, 102, 0);
     transition: 0.25s ease;
+    font-family: monospace;
+    font-size: 20px;
+    color: rgb(231, 93, 0);
+}
+.glass {
+    background: linear-gradient(to right, rgb(41, 13, 0), rgb(153, 49, 1));
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    display: inline-block;
+}
+.glass:hover {
+    background: linear-gradient(to right, rgb(255, 94, 0), rgb(255, 150, 80));
+    color: black;
+    border-color: rgb(255, 150, 80);
+    transform: scale(1.1);
 }
