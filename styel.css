@@ -14,6 +14,7 @@
   display: inline-block;
   border: 3px solid rgb(252, 161, 87);
   margin: 15px;
+  transition: 0.2s ease;
 }
 .nav-btn:hover {
   background-color: rgb(255, 94, 0);
@@ -146,13 +147,14 @@ h3 {
     font-family: monospace;
     font-size: 20px;
     color: rgb(231, 93, 0);
+    transition: 0.3s ease;
 }
 .contact1:hover {
     background-color: rgb(141, 52, 0);
     color: black;
     border-color: rgb(255, 150, 80);
+    ;}
     
-}
 .glass {
     background: linear-gradient(135deg, rgb(41, 13, 0), rgb(153, 49, 1));
     backdrop-filter: blur(10px);
@@ -161,10 +163,11 @@ h3 {
     padding: 20px;
     display: inline-block;
     margin: 20px;
+    transition: 0.3s ease;
 }
 .glass:hover {
     background: linear-gradient(135deg, rgb(77, 28, 0), rgb(184, 73, 0));
     color: black;
     border-color: rgb(255, 150, 80);
     transform: scale(1.1);
-}
+    ;}
